@@ -17,6 +17,7 @@ def view_model1():
             st.write("데이터셋 전체에 대한 통계 정보를 확인합니다.")
             processed_df = pre_process.pre_processing(df)
             visualization_process.describe_linear_model(df)
+            st.write("---")
             st.header("데이터셋 Drop & One-Hot Enconding")
             st.write("불필요한 열 제거, 결측지 처리, 범주형 변수 처리등의 이유로 데이터 전처리 과정에서")
             st.write("분석의 효율성을 높이기 위해 필요한 과정입니다.")
