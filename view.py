@@ -19,6 +19,7 @@ def view_model1():
             processed_df = pre_process.pre_processing(df)
             visualization_process.describe_linear_model(df)
             st.header("데이터셋 Drop & One-Hot Enconding")
+            st.write("**불필요한 열 제거, 결측지 처리, 범주형 변수 처리등의 이유로 데이터 전처리 과정에서 분석의 효율성을 높이기 위해 필요한 과정입니다 .**")
             st.write(processed_df)
             st.header("Min-Max Scaling")
             data_frame2 = data_preprocess.linear_process(df)
