@@ -44,6 +44,7 @@ def visualization(df, s_df, comparison1):
 
 
     st.write("## 컬럼별 상관 관계")
+    st.write("변수 간 관계 파악")
     fig = px.imshow(df1.corr(),text_auto=True, color_continuous_scale='RdBu_r', aspect='auto')
     fig = px.imshow(s_df.corr(),text_auto=True, color_continuous_scale='RdBu_r', aspect='auto')
     fig.update_layout(height=600, width=800)
