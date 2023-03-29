@@ -22,6 +22,7 @@ def view_model1():
             st.write("**분석의 효율성을 높이기 위해 필요한 과정입니다 .**")
             st.write(processed_df)
             st.header("Min-Max Scaling")
+            st.write("**데이터 정규화, 이상치 처리, 머신 러닝 모델 성능 향상을 위한 데이터 전처리 기법 **")
             data_frame2 = data_preprocess.linear_process(df)
             s_df, comparison, data_frame1 = data_preprocess.poly_model(df)
             data_preprocess.draw_table(data_frame1, data_frame2 )
