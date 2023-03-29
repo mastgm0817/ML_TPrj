@@ -88,6 +88,7 @@ def visualization(df, s_df, comparison1):
     # 테이블로 평가
 
     st.write("## LinearRegression 산점도")
+    st.write("데이터 분포 확인, 모델링 결과 검증")
     comparison = pd.DataFrame(
         {
             '실제값' : y_test, # 실제값
