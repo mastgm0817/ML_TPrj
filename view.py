@@ -14,8 +14,8 @@ def view_model1():
             st.header("원본 데이터")
             st.write(df)
             st.header("데이터셋 통계자료 ")
-            st.write("**데이터셋 전체에 대한 통계 정보를 확인합니다.
-                         df.describe(include='all')**")
+            st.write("**데이터셋 전체에 대한 통계 정보를 확인합니다.**")
+            st.write("**df.describe(include='all'**")
             processed_df = pre_process.pre_processing(df)
             visualization_process.describe_linear_model(df)
             st.header("데이터셋 Drop & One-Hot Enconding")
