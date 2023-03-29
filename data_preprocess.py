@@ -45,6 +45,7 @@ def make_polynomial_df(concated_df):
     # fig.layout.update({'width':800, 'height':600})
     # st.plotly_chart(fig)
     # st.write('---')
+    st.write("변수 간 관계 파악")
     return poly_df
 
 def split_dataset(pre_processed_df):
