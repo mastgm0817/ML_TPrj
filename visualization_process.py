@@ -54,7 +54,7 @@ def visualization(df, s_df, comparison1):
 
 
     st.write("## 파이차트 ")
-
+    st.write("데이터의 구성 비율 파악, 비교, 시각적, 직관적 이해를 위한 파이차트")
 
     a_labels = df1['school_setting'].unique()
     a_values = df1['school_setting'].value_counts()
